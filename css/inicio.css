@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+header {
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    min-width:200px;
+    max-width:1800px
+}
+
+body {
+    background-color: rgba(208,250,220,1);
+    color: black;
+    width: 100%;
+    margin: auto;
+    min-width:100px;
+    max-width:1300px
+}
+
+/* Menu do Cabeçalho */
+
+div#cabecalho {
+    position: fixed;
+    alignment: center;
+    align-items: center;
+    margin-top: -25px;
+    margin-left: -1px;
+    height: 60px;
+    width: 20000px;
+    box-shadow: 4px 4px 4px black;
+    border-bottom: solid black 5px;
+}
+
+div#cabecalho h1 {
+    margin-left: -1999px;
+    box-shadow: 4px 4px 4px black;
+    background-color: forestgreen;
+    color: white;
+    font-family: "Arial Black";
+
+}
+
+/* Corpo do Site */
+
+
+
+/* Quadrado */
+
+div#quadrado {
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 400px;
+    margin-left: 380px;
+    margin-top: 120px;
+    position: absolute;
+    box-shadow: 4px 4px 4px black;
+    border: 2px solid rgba(51,153,51,0.5);
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:1%;
+}
+
+div#quadrado h1 {
+    color: green;
+    font-family: "Arial Black";
+    text-align: center;
+}
+
+div#quadrado li {
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(63,191,63,1);
+    width: 120px;
+    color: white;
+    margin-left: 180px;
+    font-family: "Arial Black";
+    padding: 3px;
+    text-align: center;
+    border-radius:10%;
+    -moz-border-radius:10%;
+    -webkit-border-radius:5%;
+    cursor: pointer;
+}
+
+div#quadrado li:hover {
+    background-color: green;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+/* Botoes do Cabeçalho */
+
+div#botaocabecalho {
+    margin-top: 4px;
+    margin-right: 100px;
+    margin-left: 1000px;
+    position: absolute;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+}
+
+div#botaocabecalho {
+    width: 270px;
+}
+
+div#botaocabecalho2 {
+    margin-top: 4px;
+    margin-right: 100px;
+    margin-left: 820px;
+    position: absolute;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+}
+
+div#botaocabecalho2 {
+    width: 130px;
+}
+
+div#botaocabecalho3 {
+    margin-top: 4px;
+    margin-right: 100px;
+    margin-left: 730px;
+    position: absolute;
+    list-style: none;
+    width: 15px;
+    height: 10px;
+    text-decoration: none;
+}
+
+div#botaocabecalho3 {
+    width: 80px;
+}
+
+li.menu {
+    border: 3px solid green;
+    box-shadow: 1px 1px 4px black;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    font-family: "Arial Black";
+    padding: 3px;
+    position: static;
+    text-decoration: none;
+}
+
+li.menu:hover {
+    background-color: orange;
+    color: white;
+    opacity: 1;
+    box-shadow: 1px 1px 8px black;
+    transition: 0.5s;
+}
+
+a.nodec {
+    text-decoration: none;
+    color: black;
+}
+
+a.nodec:hover {
+    background-color: orange;
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/*Corpo da Página */
+
+div#titulo {
+    position: absolute;
+    margin-top: 50px;
+    width: 1300px;
+    height: 70px;
+}
+
+div#titulo h1 {
+    text-align: center;
+    color: green;
+    font-family: "Arial Black";
+}
+
+
+/* Login */
+
+div#loginbox {
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 400px;
+    margin-left: 380px;
+    margin-top: 120px;
+    position: absolute;
+    box-shadow: 4px 4px 4px black;
+    border: 2px solid rgba(51,153,51,0.5);
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:1%;
+}
+
+div#email {
+    background-color: rgba(244,237,251,1);
+    width: 200px;
+    height: 30px;
+    margin-left: 140px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:10%;
+}
+
+div#email h1 {
+    color: darkgray;
+    font-size: 15px;
+    text-align: initial;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+div#loginbox li {
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(63,191,63,1);
+    width: 120px;
+    color: white;
+    margin-left: 180px;
+    font-family: "Arial Black";
+    padding: 3px;
+    text-align: center;
+    border-radius:10%;
+    -moz-border-radius:10%;
+    -webkit-border-radius:5%;
+    cursor: pointer;
+}
+
+div#loginbox h1 {
+    color: green;
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+div#loginbox h2 {
+    background-color: rgba(244,236,253,1);
+    margin-left: 130px;
+    width: 250px;
+    color: darkgray;
+    font-size: 20px;
+    border-radius:10%;
+    -moz-border-radius:10%;
+    -webkit-border-radius:10%;
+    padding: 5px;
+    cursor: text;
+}
+
+div#loginbox:hover li {
+    background-color: green;
+    transition: 0.5s;
+    opacity: 1;
+}

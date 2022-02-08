@@ -1,0 +1,678 @@
+@charset "utf-8";
+
+header {
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    min-width:200px;
+    max-width:1800px
+}
+
+body {
+    background-color: rgba(208,250,220,1);
+    color: black;
+    width: 100%;
+    margin: auto;
+    min-width:100px;
+    max-width:1300px
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Isso aqui altera algo muito bacana :)*/
+
+figure.logo {
+
+}
+
+figure.logo img {
+    width: 50px;
+    box-shadow: 2px 1px 4px black;
+    margin-right: 1px;
+}
+
+/* Menu */
+
+li.menu {
+    border: 3px solid green;
+    box-shadow: 1px 1px 4px black;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    font-family: Verdana;
+    padding: 3px;
+    position: static;
+}
+
+li.menu:hover {
+    background-color: orange;
+    color: white;
+    opacity: 1;
+    box-shadow: 1px 1px 8px black;
+    transition: 0.5s;
+}
+
+/* Alteração de botões e imagens do menu */
+
+nav#menu {
+    display: block;
+    position: static;
+    margin: auto auto auto auto;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: static;
+    top: 70px;
+    left: -30px;
+}
+
+nav#menu li {
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+nav#menu img {
+    margin-left: 1px;
+    margin-top: -10px;
+    cursor: pointer;
+    width: 150px;
+    box-shadow: 4px 5px 4px black;
+    border: 3px solid white;
+}
+
+/* Formatação da divisão */
+
+div#menu {
+    height: 1120px;
+    width: 200px;
+    background-color: rgba(208,250,220,1);
+    top: 20px;
+    margin-top: 50px;
+    margin-left: -5px;
+    position: static;
+}
+
+/* Divisão do Feed*/
+
+div#feed {
+    margin-left: 250px;
+    margin-top:  -10px;
+    margin-right: 400px;
+    height: 30px;
+    width: 610px;
+    background-color: white;
+    list-style: none;
+    vertical-align: middle;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:1%;
+    position: static;
+}
+
+div#feed h2{
+    font-family: "Arial Black";
+    font-size: 20px;
+    color: forestgreen;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+/* Post */
+
+div#post {
+    background-color: white;
+    margin-top: 8px;
+    width: 615px;
+    height: 813px;
+    margin-right: 100px;
+    margin-left: 250px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:2%;
+}
+
+div#post h1 {
+    display: inline-block;
+    text-align: center;
+}
+
+h1.nome {
+    color: green;
+    font-family: "Arial Black";
+    font-size: 20px;
+}
+
+h1.continuacao {
+    font-family: "Arial Black";
+    font-size: 20px;
+}
+
+div#inside {
+    padding: 1px;
+    border: 1px solid black;
+    height: 810px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:2%;
+}
+
+img.fotopost {
+    margin-left: -1px;
+    width: 611px;
+    height: 600px;
+    align-items: center;
+    border: 1px solid black;
+}
+
+img.fotoicone {
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    display: inline-block;
+    position: static;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+h4.horario {
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+/* Menu do cabeçalho */
+
+div#cabecalho {
+    position: fixed;
+    alignment: center;
+    align-items: center;
+    margin-top: -75px;
+    margin-left: -1px;
+    height: 60px;
+    width: 20000px;
+    box-shadow: 4px 4px 4px black;
+    border-bottom: solid black 5px;
+    display: inline-block;
+}
+
+div#cabecalho h1 {
+    margin-left: -1999px;
+    box-shadow: 4px 4px 4px black;
+    background-color: forestgreen;
+    color: white;
+    font-family: "Arial Black";
+    position: static;
+
+}
+
+/* Estilo da Search Box */
+div#searchbox {
+    background-color: white;
+    margin-top: -45px;
+    margin-right: 200px;
+    margin-left: 300px;
+    position: fixed;
+    border-radius:100%;
+    -moz-border-radius:100%;
+    -webkit-border-radius:10%;
+}
+
+div#searchbox li {
+    background-color: white;
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    padding: 1px;
+    color: darkgray;
+    margin-top: 3px;
+    cursor:pointer;
+}
+
+div#searchbox i {
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+/* Estilo dos Botoes do Cabecalho */
+div#botaocabecalho {
+    margin-top: -43px;
+    margin-right: -10px;
+    margin-left: 650px;
+    list-style: none;
+    width: 120px;
+    height: 20px;
+    position: fixed;
+    background-color: green;
+    text-decoration: none;
+}
+
+div#botaocabecalho2 {
+    margin-top: -45px;
+    margin-right: 100px;
+    margin-left: 1180px;
+    position: fixed;
+    list-style: none;
+    width: 10px;
+    height: 10px;
+}
+
+div#botaocabecalho2 {
+    width: 60px;
+}
+
+/* Estilo do Novo Post */
+div#novopost{
+    width: 280px;
+    height: 200px;
+    margin-left: 920px;
+    background-color: white;
+    list-style: none;
+    vertical-align: middle;
+    position: static;
+    padding: -20px;
+    box-shadow: 6px 4px 4px black;
+    cursor: pointer;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:5%;
+}
+
+div#novopostletra {
+    width: 248px;
+    margin-left: 1005px;
+    margin-top: -1095px;
+    background-color: rgba(208,250,220,1);
+    list-style: none;
+    vertical-align: middle;
+    position: static;
+    padding: -20px;
+}
+
+div#botaopost {
+    background-color: rgba(55,158,55,1);
+    width: 70px;
+    top: 325px;
+    margin-left: 920px;
+    font-size: 20px;
+    list-style: none;
+    position: absolute;
+    color: white;
+    font-family: "Arial Black";
+    cursor: pointer;
+    padding: 2px;
+}
+
+div#novopost h1 {
+    font-size: 15px;
+    font-family: "Arial Black";
+    color: darkgray;
+}
+
+div#novopostadd {
+    background-color: rgba(208,250,220,1);
+    width: 25px;
+    height: 0px;
+    top: 297px;
+    margin-left: 760px;
+    font-size: 15px;
+    list-style: none;
+    position: absolute;
+    color: gray;
+    font-family: "Arial Black";
+    cursor: pointer;
+}
+
+div#botaopost:hover {
+    background-color: green;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+/* Estilo do Feeling */
+
+div#feeling {
+    font-size: 8px;
+    margin-left: 970px;
+    color: green;
+    top: 300px;
+    position: static;
+}
+
+div#feeling ul {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+div#feeling li {
+    margin-left: 1px;
+    margin-right: 300px;
+    display: inline-block;
+    padding: 1px;
+}
+
+div#feeling img {
+    width: 60px;
+    height: 60px;
+}
+
+div#feeling h1 {
+    margin-left: -60px;
+    font-family: "Arial Black";
+}
+
+/* Estilo do WAY */
+
+div#way {
+    margin-left: 990px;
+    color: green;
+    margin-top: 10px;
+    position: absolute;
+}
+
+div#way h1{
+    font-size: 20px;
+    font-family: "Arial Black";
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+div#waybox {
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    margin-left: 900px;
+    color: green;
+    margin-top: -220px;
+    position: static;
+    border: 1px solid black;
+}
+
+div#waybox li {
+    color: darkgray;
+    position: static;
+    list-style: none;
+    cursor: pointer;
+    width: 350px;
+    height: 30px;
+}
+
+div#waybutton {
+    background-color: rgba(55,158,55,1);
+    width: 70px;
+    height: 30px;
+    margin-left: 1025px;
+    color: white;
+    margin-top: 10px;
+    position: static;
+    border: 1px solid black;
+    cursor: pointer;
+    list-style: none;
+    padding: 1px;
+    font-size: 25px;
+}
+
+div#waybutton:hover {
+    background-color: green;
+    transition: 0.2s;
+}
+
+/* Enquete */
+
+
+li.enquete {
+    list-style: none;
+    position: static;
+}
+
+/* Rodapé */
+
+div#linha {
+    border-bottom: 1px solid black;
+    margin-top: 90px;
+}
+
+footer#rodape {
+    font-family: "Arial";
+    font-size: 8px;
+    padding-top: 2px;
+    position: static;
+
+}
+
+footer#rodape h1 {
+    text-align: center;
+}
+
+/* Com quem vc ta hj? */
+
+div#friendmeet {
+    margin-left: 940px;
+    color: green;
+    margin-top: 140px;
+    position: static;
+}
+
+div#friendmeet h1{
+    font-size: 20px;
+    font-family: "Arial Black";
+    margin-left: -30px;
+    position: static;
+}
+
+div#friendbox {
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    margin-left: 900px;
+    color: green;
+    top: 980px;
+    position: static;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+div#friendbox li {
+    color: darkgray;
+    list-style: none;
+    cursor: pointer;
+    width: 350px;
+    height: 30px;
+    position: static;
+}
+
+div#friendbutton {
+    background-color: rgba(55,158,55,1);
+    width: 70px;
+    height: 30px;
+    margin-left: 1030px;
+    margin-top: 10px;
+    color: white;
+    top: 960px;
+    position: static;
+    border: 1px solid black;
+    cursor: pointer;
+    list-style: none;
+    padding: 1px;
+    font-size: 25px;
+}
+
+div#friendbutton:hover {
+    background-color: green;
+    transition: 0.2s;
+}
+
+/*Botão de Notificação*/
+div#notificacoes {
+    background-color: white;
+    margin-left: 610px;
+    font-size: 20px;
+    top: 8px;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    align-content: center;
+    border: 3px solid darkgreen;
+}
+
+div#notificacoes li{
+    list-style: none;
+    cursor: pointer;
+}
+
+div#notificacoes:hover {
+    background-color: orange;
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/*Propaganda*/
+
+div#propaganda {
+    margin-top: -1000px;
+}
+
+div#propaganda img{
+    width: 500px;
+    height: 80px;
+    margin-left: 300px;
+    margin-top: -500px;
+    position: static;
+}
+
+/* Post Reactions */
+
+
+div#likebutton {
+    list-style: none;
+    width: 200px;
+    height: 30px;
+    padding: 1px;
+    border-bottom: 1px solid black;
+    margin-top: -110px;
+    text-align: center;
+    font-size: 25px;
+}
+
+div#likebutton li {
+    cursor: pointer;
+}
+
+div#likebutton h1 {
+    font-size: 15px;
+}
+
+div#likebutton:hover li{
+    background-color: forestgreen;
+    color: white;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+div#commentbutton {
+    list-style: none;
+    width: 200px;
+    height: 30px;
+    padding: 1px;
+    border-bottom: 1px solid black;
+    margin-top: -33px;
+    margin-left: 205px;
+    text-align: center;
+    font-size: 25px;
+}
+
+div#commentbutton li {
+    cursor: pointer;
+}
+
+div#commentbutton h1 {
+    font-size: 15px;
+}
+
+div#commentbutton:hover li{
+    background-color: green;
+    color: white;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+div#sharebutton {
+    list-style: none;
+    width: 200px;
+    height: 30px;
+    padding: 1px;
+    border-bottom: 1px solid black;
+    margin-top: -33px;
+    margin-left: 412px;
+    text-align: center;
+    font-size: 25px;
+}
+
+div#sharebutton h1 {
+    font-size: 15px;
+}
+
+div#sharebutton li {
+    cursor: pointer;
+}
+
+div#sharebutton:hover li{
+    background-color: green;
+    color: white;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+div#vercomment {
+    background-color: cornflowerblue;
+    border-radius:2%;
+    -moz-border-radius:2%;
+    -webkit-border-radius:10%;
+    width: 110px;
+    margin-left: 250px;
+}
+
+div#vercomment li {
+    list-style: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+div#vercomment:hover {
+    background-color: dodgerblue;
+    opacity: 1;
+    color: white;
+    transition: 0.5s;
+}
+
+/*Enquete*/
+
+div#enquete {
+    list-style: none;
+    background-color: rgba(55,158,55,1);
+    width: 200px;
+    height: 28px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 960px;
+    margin-top: 200px;
+    cursor: pointer;
+    position: static;
+}
+
+div#enquete:hover {
+    background-color: green;
+    opacity: 1;
+    transition: 0.2s;
+}
